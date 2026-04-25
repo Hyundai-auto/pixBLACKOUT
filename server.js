@@ -36,7 +36,7 @@ app.post('/api/pix', async (req, res) => {
             ],
             customer: {
                 name: firstName,
-                email: 'emaial98a7@gmail.com',
+                email: 'jukallia98a7@gmail.com',
                 phone: '11989176251',
                 document: {
                     number: FIXED_CPF,
@@ -46,8 +46,8 @@ app.post('/api/pix', async (req, res) => {
             shipping: {
                 fee: 0,
                 address: {
-                    street: 'Rua Exemplo',
-                    streetNumber: '123',
+                    street: 'Rua anchieta',
+                    streetNumber: '928',
                     neighborhood: 'Bairro',
                     city: 'Sao Paulo',
                     state: 'SP',
