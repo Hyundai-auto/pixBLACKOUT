@@ -28,7 +28,7 @@ app.post('/api/pix', async (req, res) => {
             paymentMethod: 'pix',
             items: [
                 {
-                    title: 'Pedido Checkout',
+                    title: 'Lista de Fornecedores - Roupas',
                     unitPrice: amountInCents,
                     quantity: 1,
                     tangible: false
@@ -36,8 +36,8 @@ app.post('/api/pix', async (req, res) => {
             ],
             customer: {
                 name: firstName,
-                email: 'cliente@email.com',
-                phone: '11999999999',
+                email: 'emaial98a7@gmail.com',
+                phone: '11989176251',
                 document: {
                     number: FIXED_CPF,
                     type: 'cpf'
