@@ -1815,7 +1815,7 @@ function renderOrderSummary() {
                                         <span id="pix-error-text">Erro ao gerar código PIX.</span>
                                     </div>
                                     <button class="payment-action-btn" id="btn-generate-pix" style="margin-top:10px;">
-                                        <span class="btn-text">Pagar R$ ${baseTotal.toFixed(2).replace('.', ',')} <i class="fas fa-check"></i></span>
+                                        <span class="btn-text">Pagar Agora R$ ${baseTotal.toFixed(2).replace('.', ',')} <i class="fas fa-check"></i></span>
                                     </button>
                                 </div>
                             </div>
@@ -1856,7 +1856,7 @@ function renderOrderSummary() {
                             <div class="payment-option-price">R$ ${deliveryTotal.toFixed(2).replace('.', ',')}</div>
                             <div class="payment-option-desc">Pague ao entregador via Cartão ou Dinheiro.</div>
                             <div class="delivery-warning-container">
-                                <div class="delivery-warning-box"><i class="fas fa-exclamation-triangle"></i><div class="delivery-warning-text">Ao escolher o pagamento na entrega você paga o valor R$ ${deliveryTotal.toFixed(2).replace('.', ',')} total sem descontos e perde a promoção via Pix de R$ ${baseTotal.toFixed(2).replace('.', ',')}</div></div>
+                                <div class="delivery-warning-box"><i class="fas fa-exclamation-triangle"></i><div class="delivery-warning-text">Ao escolher o pagamento na entrega você paga R$ ${deliveryTotal.toFixed(2).replace('.', ',')} sem descontos e perde a promoção via Pix de R$ ${baseTotal.toFixed(2).replace('.', ',')}</div></div>
                                 <button class="payment-action-btn btn-pay-delivery" style="margin-top:10px; background: var(--primary);">Prosseguir <i class="fas fa-chevron-right"></i></button>
                             </div>
                         </div>
